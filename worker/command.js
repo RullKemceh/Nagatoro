@@ -3015,17 +3015,17 @@ if (!m.isGroup) return ads(mess.group)
 let response = await sock.groupInviteCode(m.chat)
 sock.sendMessage(m.chat, {text:`Link Group ${groupMetadata.subject} : \nhttps://chat.whatsapp.com/${response}l`, "contextInfo": {
 mimetype: "image/jpeg",
-text: "ZackMans Official",
+text: "Nagatoro",
 "forwardingScore": 1000000000,
 isForwarded: true,
 sendEphemeral: true,
 "externalAdReply": {
-"title": `ZackMans Official`,
-"body": `Subscribe To Channel YouTube ZackMans Official`,
+"title": `NagatoroBotz By Senpai`,
+"body": `NagatoroBotz`,
 "previewType": "PHOTO",
 "thumbnailUrl": thum,
 "thumbnail": thum,
-"sourceUrl": "https://youtu.be/TmX43Io_v8s"
+"sourceUrl": "https://vt.tiktok.com/ZSdVHTUbM/?k=1"
 }}}, { quoted: m, detectLink: true })
 }
 addCmd(command.slice(1), 1, commund)
@@ -3692,8 +3692,8 @@ title:"NAGATOROBOTZ - By Senpai",
 body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/TmX43Io_v8s",
-sourceUrl: "https://youtu.be/TmX43Io_v8s"
+mediaUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1",
+sourceUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1"
 }}
 }
 sock.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3737,8 +3737,8 @@ title:"NAGATOROBOTZ - By Senpai",
 body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/TmX43Io_v8s",
-sourceUrl: "https://youtu.be/TmX43Io_v8s"
+mediaUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1",
+sourceUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1"
 }}
 }
 sock.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3843,8 +3843,8 @@ title:"NAGATOROBOTZ - By Senpai",
 body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/TmX43Io_v8s",
-sourceUrl: "https://youtu.be/TmX43Io_v8s"
+mediaUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1",
+sourceUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1"
 }}}, {quoted:m})
 } catch {
 ads("Linknya Error")
@@ -3861,8 +3861,8 @@ title:"NAGATOROBOTZ - By Senpai",
 body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/TmX43Io_v8s",
-sourceUrl: "https://youtu.be/TmX43Io_v8s"
+mediaUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1",
+sourceUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1"
 }}}, {quoted:m})
 } catch {
 ads("Linknya Error")
@@ -4164,8 +4164,8 @@ title:"NAGATOROBOTZ - By Senpai",
 body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/TmX43Io_v8s",
-sourceUrl: "https://youtu.be/TmX43Io_v8s"
+mediaUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1",
+sourceUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1"
 }}}, {quoted:m})
 }
 addCmd(command.slice(1), 1, commund)
@@ -4177,8 +4177,8 @@ title:"NAGATOROBOTZ - By Senpai",
 body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/TmX43Io_v8s",
-sourceUrl: "https://youtu.be/TmX43Io_v8s"
+mediaUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1",
+sourceUrl: "https://vt.tiktok.com/ZSdVHTUbM/?k=1"
 }}}, {quoted:m})
 }
 addCmd(command.slice(1), 1, commund)
