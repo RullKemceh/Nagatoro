@@ -39,12 +39,12 @@ async function __START() {
     })
 console.log(color('[DEFF CHAN]', 'cyan'), color('Bot Online', 'yellow'))
 console.log(color('[WARNING]', 'cyan'), color(`INGFO CREATOR`, 'yellow'))
-console.log(color('Instagram :', 'cyan'), color(`@deff.xyz`, 'yellow'))
-console.log(color('Github :', 'cyan'), color(`@DEFF1602`, 'yellow'))
-console.log(color('Wangsap :', 'cyan'), color(`089501060783`, 'yellow'))
+console.log(color('Instagram :', 'cyan'), color(`@Senpai`, 'yellow'))
+console.log(color('Github :', 'cyan'), color(`@Senpai`, 'yellow'))
+console.log(color('Wangsap :', 'cyan'), color(`085746030186`, 'yellow'))
 console.log(color('\n', 'cyan'), color('\nWelcome back, Owner! Hope you are doing well~', 'yellow'))
 
-sock.browserDescription = ["DEFF-MD", "Mac", "3.0.0"];
+sock.browserDescription = ["NAGATORO-MD", "Mac", "3.0.0"];
 sock.ev.on('messages.upsert', async chatUpdate => {
 try {
 mek = chatUpdate.messages[0]
@@ -109,7 +109,7 @@ let buttons = [
 let buttonMessage = {
 image: await getBuffer(ppuser), 
 caption: mbc,
-footer: "© DEFFBOTZ - BY - DEFF",
+footer: "© NAGATOROBOTZ - BY - SENPAI",
 mentions:[orgnye],
 buttons: buttons,
 headerType: 4,
@@ -181,7 +181,7 @@ const jamny = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await sock.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await sock.getName(i + '@s.whatsapp.net')}\nFN:${await sock.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:dyudhistira51@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://instagram.com/deff.xyz\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await sock.getName(i + '@s.whatsapp.net')}\nFN:${await sock.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:dyudhistira51@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://nekopoi.com\nitem3.X-ABLabel:Gatau\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	sock.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
