@@ -1,6 +1,6 @@
 /** 
  - Create By Deff
- - Contact Me on https://wa.me/+6289501060783
+ - Contact Me on https://wa.me/+6285746030186
  - Follow iG : @deff.xyz
  - Thanks Dika Ardente & Zack Mans & Thunder Team & Xnone Team
 */
@@ -260,7 +260,7 @@ user.afkReason = ''
 // Detect Group Invite
 if (m.mtype === 'groupInviteMessage') {
 teks = `Ketik join untuk bergabung ke group whatsapp anda`
-sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "DEFF~MD", "6289501060783@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "Nagatoro~Botz", "6285746030186@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 
 // AntiLink
@@ -309,7 +309,7 @@ if (tebaklagu.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaklagu[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© By Senpai", m)
 delete tebaklagu[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -318,7 +318,7 @@ if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakgambar[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© By Senpai", m)
 delete tebakgambar[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -327,7 +327,7 @@ if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkata[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© By Senpai", m)
 delete tebakkata[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -337,7 +337,7 @@ kuis = true
 jawaban = caklontong[m.sender.split('@')[0]]
 deskripsi = caklontong_desk[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, "© By Senpai", m)
 delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
@@ -347,7 +347,7 @@ if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkalimat[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© By Senpai", m)
 delete tebakkalimat[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -356,7 +356,7 @@ if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaklirik[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© By Senpai", m)
 delete tebaklirik[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -365,7 +365,7 @@ if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaktebakan[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© By Senpai", m)
 delete tebaktebakan[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -727,7 +727,7 @@ let res = sock.sendMessage(from, { text: teks, mentions: mems }, { quoted: m })
 return res
  }
 }
-let head = `*╭───╼[ _DEFFBOTZ-DEFF_ ]╾──➲*`
+let head = `*╭───╼[ _Nagatoro Botz_ ]╾──➲*`
 let left = "*│*"
 let branch = "*├*"
 let bracketmenu = "*┞─╼「"
@@ -994,10 +994,9 @@ ${branch}> / => / $
 ${borderlistend}
 
 ${headtqto}
-${A} Dika Ardnt
-${B} ZackMans
-${A} Rifza
-${B} Deff
+${A} Allah Swt
+${B} Ortu
+${A} Rull (senpai)
 ${left} ${ucapanWaktu}
 ${left} ${jangwak}
 ${end}`
@@ -1013,7 +1012,7 @@ url: linkgrupss
 }, {
 urlButton: {
 displayText: 'Instagram',
-url: 'https://instagram.com/deff.xyz'
+url: 'https://instagram.com'
 }
 }, {
 quickReplyButton: {
@@ -1031,7 +1030,7 @@ displayText: '📊Dashboard',
 id: '#dashboard'
 }
 }]
-sock.sendMessage(from, { caption: listmn, location: { jpegThumbnail: fs.readFileSync('./worker/media/image/loc.jpg') }, buttons: but, footer: '©Deffbotz ~ Deff'})
+sock.sendMessage(from, { caption: listmn, location: { jpegThumbnail: fs.readFileSync('./worker/media/image/loc.jpg') }, buttons: but, footer: '©NagatoroBotz By Senpai'})
 }
 break
 break
@@ -1875,7 +1874,7 @@ case prefix+'watercolor': case prefix+'multicolor': case prefix+'neondevil': cas
 case prefix+'chocolate': case prefix+'strawberry': case prefix+'matrix': case prefix+'blood': case prefix+'dropwater': case prefix+'toxic': 
 case prefix+'lava': case prefix+'rock': case prefix+'bloodglas': case prefix+'hallowen': case prefix+'darkgold': case prefix+'joker': case prefix+'wicker':
  case prefix+'firework': case prefix+'skeleton': case prefix+'blackpink': case prefix+'sand': case prefix+'glue': case prefix+'1917': case prefix+'leaves': {
-             if (!q) return ads(`Example : ${prefix + command} Deff`) 
+             if (!q) return ads(`Example : ${prefix + command} Senpai`) 
              ads(mess.wait)
              let link
              if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
@@ -1969,7 +1968,7 @@ templateMessage: {
 hydratedTemplate: {
 videoMessage: message.videoMessage,
 hydratedContentText: listmn,
-hydratedFooterText: "© DEFFBOTZ ~ DEFF",
+hydratedFooterText: "© By Senpai",
 hydratedButtons: [{
 urlButton: {
 displayText: 'Group Whatsapp',
@@ -1978,7 +1977,7 @@ url: linkgrupss
 }, {
 urlButton: {
 displayText: 'Instagram',
-url: 'https://instagram.com/deff.xyz'
+url: 'https://instagram.com'
 }
 }, {
 quickReplyButton: {
@@ -2095,7 +2094,7 @@ tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonid: '##tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+sock.sendButtonText(m.chat, [{ buttonid: '##tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© By Senpai", m)
 delete tebaklagu[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'gambar') {
@@ -2108,7 +2107,7 @@ tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonid: '##tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`,"© DEFFBOTZ ~ DEFF", m)
+sock.sendButtonText(m.chat, [{ buttonid: '##tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`,"© By Senpai", m)
 delete tebakgambar[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'kata') {
@@ -2121,7 +2120,7 @@ tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonid: '##tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+sock.sendButtonText(m.chat, [{ buttonid: '##tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© By Senpai", m)
 delete tebakkata[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'kalimat') {
@@ -2134,7 +2133,7 @@ tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonid: '##tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+sock.sendButtonText(m.chat, [{ buttonid: '##tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© By Senpai", m)
 delete tebakkalimat[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'lirik') {
@@ -2147,7 +2146,7 @@ tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonid: '##tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+sock.sendButtonText(m.chat, [{ buttonid: '##tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© By Senpai", m)
 delete tebaklirik[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'lontong') {
@@ -2161,7 +2160,7 @@ caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
 await sleep(60000)
 if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-sock.sendButtonText(m.chat, [{ buttonid: '##tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© DEFFBOTZ ~ DEFF", m)
+sock.sendButtonText(m.chat, [{ buttonid: '##tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© By Senpai", m)
 delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
 }
@@ -2311,7 +2310,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -2356,7 +2355,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -2402,7 +2401,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -2809,7 +2808,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4
 }
@@ -2834,7 +2833,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4
 }
@@ -2861,7 +2860,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4
 }
@@ -2885,7 +2884,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4
 }
@@ -3071,8 +3070,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 DEFF ~ MD」*\n\nChange Info, Select Open Or Close`,
-footer: "© DEFFBOTZ ~ DEFF",
+caption: `*「 NAGATORO 」*\n\nChange Info, Select Open Or Close`,
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4
 }
@@ -3098,8 +3097,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 DEFF ~ MD」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© DEFFBOTZ ~ DEFF",
+caption: `*「 NAGATORO」*\n\nChange Group Setting, Select Open Or Close`,
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4
 }
@@ -3161,7 +3160,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Source Code',
-url: 'https://github.com/DEFF1602/'
+url: 'https://nekopoi.com'
 }
 }, {
 urlButton: {
@@ -3185,7 +3184,7 @@ id: '#sc'
 }
 }]
 let txt = `*「 Broadcast」*\n\n${text}`
-sock.send5ButImg(i, txt, "© DEFFBOTZ ~ DEFF", log0, btn, thum)
+sock.send5ButImg(i, txt, "© By Senpai", log0, btn, thum)
 }
 ads(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
@@ -3202,7 +3201,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Source Code',
-url: 'https://github.com/DEFF1602'
+url: 'https://nekopoi.com'
 }
 }, {
 urlButton: {
@@ -3226,14 +3225,14 @@ id: '#sc'
 }
 }]
 let txt = `*「 Broadcast」*\n\n${text}`
-sock.send5ButImg(yoi, txt, "© DEFFBOTZ ~ DEFF", log0, btn, thum)
+sock.send5ButImg(yoi, txt, "© By Senpai", log0, btn, thum)
 }
 ads('Sukses Broadcast')
 }
 addCmd(command.slice(1), 1, commund)
 break
 case prefix+'sc': case prefix+'script': case prefix+'donate': case prefix+'donasi': case prefix+'cekupdate': case prefix+'updatebot': case prefix+'cekbot': case prefix+'sourcecode': {
-teks = `「 DEFF ~ MD」\nhttps://youtube.com/channel/UCSAcYW8MkFyaVQz9asa3q5Q`
+teks = `「 NagatoroBotz 」\n???`
 teks += `Dont Forget Donate`
 let buttons = [
 {buttonId: `${prefix}menu`, buttonText: {displayText: 'Menu'}, type: 1}
@@ -3242,12 +3241,12 @@ let buttonMessage = {
 image: thum,
 jpegThumbnail: log0,
 caption: teks,
-footer: "©DEFF",
+footer: "©Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"DEFF ~ MD Qris ( Donate )",
-body: "©DEFF", 
+title:"©Nagatoro Botz",
+body: "©Senpai", 
 thumbnail: fs.readFileSync("worker/media/image/Deff.jpg"),
 mediaType:1,
 mediaUrl: 'https://telegra.ph/file/40762e97a434e17ba3d75.jpg',
@@ -3317,7 +3316,7 @@ content: [{ tag: "invite", attrs: { code: vcc } }]
 sizny = res.content[0].attrs.size
 if (sizny < 50) {
 teks = `Maaf anggota group anda kurang dari 50, minimal agar bot join harus mempunyai lebih dari 50 anggota`
-sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "DEFF~MD", "6289501060783@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "Nagatoro~Botz", "6285746030186@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
 } else if (sizny > 50) {
 await sock.groupAcceptInvite(vcc).then(async(res) => ads(jsonformat(res))).catch(_ => _)
 ads("Succes")
@@ -3685,12 +3684,12 @@ caption: `*| GOOGLE IMAGE |*
 
 🤠 Query : ${text}
 🔗 Media Url : ${images}`,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"NAGATOROBOTZ - By Senpai",
+body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3730,12 +3729,12 @@ let buttons = [
 let buttonMessage = {
 image: { url: imgnyee },
 caption:  '⭔ Title : ' + args.join(" ") + '\n⭔ Media Url : '+imgnyee,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"NAGATOROBOTZ - By Senpai",
+body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3775,7 +3774,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4
 }
@@ -3812,7 +3811,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4
 }
@@ -3840,8 +3839,8 @@ if (isBan) return ads(mess.ban)
 if (!args[0]) return ads("Linknya mana kak?")
 try {
 sock.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"NAGATOROBOTZ - By Senpai",
+body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3858,8 +3857,8 @@ if (isBan) return ads(mess.ban)
 if (!args[0]) return ads("Linknya mana kak?")
 try {
 sock.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"NAGATOROBOTZ - By Senpai",
+body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3891,11 +3890,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Twitter Downloader",
+title:"Nagatoro Bot ~ Twitter Downloader",
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3918,11 +3917,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Twitter Downloader",
+title:"Nagatoro Bot ~ Twitter Downloader",
 body: "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3952,11 +3951,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Facebook Downloader",
+title:"Nagatoro Bot ~ Facebook Downloader",
 body:"facebook downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3979,11 +3978,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Facebook Downloader",
+title:"Nagatoro Bot ~ Facebook Downloader",
 body: " Facebook Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4014,11 +4013,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[1].url},
 caption: texttk,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Tiktok Downloader",
+title:"Nagatoro Bot ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -4037,7 +4036,7 @@ case prefix+'ttad': {
 if (isBan) return ads(mess.ban)
 let res = await aiovideodl(args[0])
 sock.sendMessage(from, {audio:{url:res.medias[2].url}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"Deff Official ~ Tiktok Downloader",
+title:"Nagatoro Bot ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -4063,11 +4062,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[0].url},
 caption: texttk,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Tiktok Downloader",
+title:"Nagatoro Bot ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -4103,12 +4102,12 @@ caption: `*| YOUTUBE PLAY |*
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
-body: "© DEFFBOTZ ~ DEFF",
+body: "© By Senpai",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
@@ -4138,12 +4137,12 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© By Senpai",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© DEFFBOTZ ~ DEFF",
+body: "© By Senpai",
 thumbnail: {url:res.thumb},
 mediaType:2,
 mediaUrl: args[0],
@@ -4161,8 +4160,8 @@ break
 case prefix+'ytvd': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"NAGATOROBOTZ - By Senpai",
+body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -4174,8 +4173,8 @@ break
 case prefix+'ytad': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"NAGATOROBOTZ - By Senpai",
+body:"© By Senpai",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -4248,7 +4247,7 @@ addCmd(command.slice(1), 1, commund)
 break
 // Eval Ada Disini
 default:
-function _0x51c7(){var _0x40ebaa=['200gwjkcY','1055zsTmGJ','11879656EHMKlk','819042XFTThs','3025077yOsLDk','reply','42AItxAt','*Maksud\x20kamu\x20','1310778jfUBST','floor','random','1453653UfYIYB','length','isGroup','547870lAJaft','23360AFIjRS'];_0x51c7=function(){return _0x40ebaa;};return _0x51c7();}function _0x39c7(_0x58004b,_0x3a3997){var _0x51c70d=_0x51c7();return _0x39c7=function(_0x39c7c4,_0x472436){_0x39c7c4=_0x39c7c4-0xbc;var _0x55749f=_0x51c70d[_0x39c7c4];return _0x55749f;},_0x39c7(_0x58004b,_0x3a3997);}var _0x24d421=_0x39c7;(function(_0x1ab7bd,_0x4d0ab3){var _0x4850c1=_0x39c7,_0x2ea28a=_0x1ab7bd();while(!![]){try{var _0x31f7a3=-parseInt(_0x4850c1(0xc7))/0x1+-parseInt(_0x4850c1(0xca))/0x2+-parseInt(_0x4850c1(0xc0))/0x3+parseInt(_0x4850c1(0xcb))/0x4*(parseInt(_0x4850c1(0xbd))/0x5)+parseInt(_0x4850c1(0xc2))/0x6*(parseInt(_0x4850c1(0xbf))/0x7)+-parseInt(_0x4850c1(0xbe))/0x8+-parseInt(_0x4850c1(0xc4))/0x9*(-parseInt(_0x4850c1(0xbc))/0xa);if(_0x31f7a3===_0x4d0ab3)break;else _0x2ea28a['push'](_0x2ea28a['shift']());}catch(_0x2bd296){_0x2ea28a['push'](_0x2ea28a['shift']());}}}(_0x51c7,0xb5732));isCmd&&!m[_0x24d421(0xc9)]&&(deff=allcmd[Math['floor'](Math[_0x24d421(0xc6)]()*allcmd[_0x24d421(0xc8)])],anu=did(command,allcmd),anu2=sim(command,anu),detect('*Maksud\x20kamu\x20'+(anu||''+deff)+'?*'));isCmd&&m['isGroup']&&(deff=allcmd[Math[_0x24d421(0xc5)](Math[_0x24d421(0xc6)]()*allcmd[_0x24d421(0xc8)])],anu=did(command,allcmd),anu2=sim(command,anu),m[_0x24d421(0xc1)](_0x24d421(0xc3)+(anu||''+deff)+'?*'));
+function _0x51c7(){var _0x40ebaa=['200gwjkcY','1055zsTmGJ','11879656EHMKlk','819042XFTThs','3025077yOsLDk','reply','42AItxAt','*Maksud\x20kamu\x20','1310778jfUBST','floor','random','1453653UfYIYB','length','isGroup','547870lAJaft','23360AFIjRS'];_0x51c7=function(){return _0x40ebaa;};return _0x51c7();}function _0x39c7(_0x58004b,_0x3a3997){var _0x51c70d=_0x51c7();return _0x39c7=function(_0x39c7c4,_0x472436){_0x39c7c4=_0x39c7c4-0xbc;var _0x55749f=_0x51c70d[_0x39c7c4];return _0x55749f;},_0x39c7(_0x58004b,_0x3a3997);}var _0x24d421=_0x39c7;(function(_0x1ab7bd,_0x4d0ab3){var _0x4850c1=_0x39c7,_0x2ea28a=_0x1ab7bd();while(!![]){try{var _0x31f7a3=-parseInt(_0x4850c1(0xc7))/0x1+-parseInt(_0x4850c1(0xca))/0x2+-parseInt(_0x4850c1(0xc0))/0x3+parseInt(_0x4850c1(0xcb))/0x4*(parseInt(_0x4850c1(0xbd))/0x5)+parseInt(_0x4850c1(0xc2))/0x6*(parseInt(_0x4850c1(0xbf))/0x7)+-parseInt(_0x4850c1(0xbe))/0x8+-parseInt(_0x4850c1(0xc4))/0x9*(-parseInt(_0x4850c1(0xbc))/0xa);if(_0x31f7a3===_0x4d0ab3)break;else _0x2ea28a['push'](_0x2ea28a['shift']());}catch(_0x2bd296){_0x2ea28a['push'](_0x2ea28a['shift']());}}}(_0x51c7,0xb5732));isCmd&&!m[_0x24d421(0xc9)]&&(deff=allcmd[Math['floor'](Math[_0x24d421(0xc6)]()*allcmd[_0x24d421(0xc8)])],anu=did(command,allcmd),anu2=sim(command,anu),detect('*Maksud\x20kamu\x20'+(anu||''+Senpai)+'?*'));isCmd&&m['isGroup']&&(deff=allcmd[Math[_0x24d421(0xc5)](Math[_0x24d421(0xc6)]()*allcmd[_0x24d421(0xc8)])],anu=did(command,allcmd),anu2=sim(command,anu),m[_0x24d421(0xc1)](_0x24d421(0xc3)+(anu||''+deff)+'?*'));
 if (budy.startsWith('=>')) {
 if (!isCreator) return ads(mess.owner)
 function Return(sul) {
@@ -4293,7 +4292,7 @@ sock.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 
 }
 } catch (err) {
-sock.sendMessage("6289501060783@s.whatsapp.net", util.format(err), {quoted:m})
+sock.sendMessage("6285746030186@s.whatsapp.net", util.format(err), {quoted:m})
 console.log(err)
 }
 }
